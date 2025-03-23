@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CustomFindAllEven": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
