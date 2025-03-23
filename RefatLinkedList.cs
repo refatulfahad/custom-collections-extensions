@@ -36,7 +36,9 @@ namespace CustomFindAllEven
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return GetEnumerator();
+            // need for non-generic collection
+            //return GetEnumerator();
+            throw new NotImplementedException();
         }
 
         public void Add(T item)
